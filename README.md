@@ -26,6 +26,12 @@ Each building is connected using a triangular router topology with redundant pat
 
 ## 🏗️ Network Design
 
+## 🗺️ Network Topology
+
+<img src="images/topology.png" width="700">
+
+---
+
 ### 🔹 VLAN Structure
 
 | VLAN | Department   |
@@ -60,14 +66,14 @@ Each building is connected using a triangular router topology with redundant pat
 
 #### Backbone Links
 
-* 192.168.254.0/24 split into /30 subnets
+* 192.168.254.0/24 divided into /30 subnets
 
 ---
 
 ## ⚙️ Technologies Used
 
 * Cisco Packet Tracer
-* VLAN (802.1Q)
+* VLAN (IEEE 802.1Q)
 * Router-on-a-Stick
 * RIP Version 2
 * VLSM Subnetting
@@ -124,7 +130,7 @@ network 192.168.254.0
 
 Devices within the same VLAN successfully communicate.
 
-![Intra VLAN Test](images/intra-vlan.png)
+<img src="images/intra-vlan.png" width="700">
 
 ---
 
@@ -132,7 +138,7 @@ Devices within the same VLAN successfully communicate.
 
 Devices in different VLANs communicate via router.
 
-![Inter VLAN Test](images/inter-vlan.png)
+<img src="images/inter-vlan.png" width="700">
 
 ---
 
@@ -140,7 +146,7 @@ Devices in different VLANs communicate via router.
 
 Devices across buildings successfully communicate via RIP routing.
 
-![Inter Building Test](images/inter-building.png)
+<img src="images/inter-building.png" width="700">
 
 ---
 
@@ -150,7 +156,7 @@ Devices across buildings successfully communicate via RIP routing.
 show ip route
 ```
 
-![Routing Table](images/routing-table.png)
+<img src="images/routing-table.png" width="700">
 
 ---
 
@@ -160,7 +166,7 @@ show ip route
 show ip protocols
 ```
 
-![RIP Protocol](images/rip.png)
+<img src="images/rip.png" width="700">
 
 ---
 
@@ -176,7 +182,7 @@ shutdown
 ✔ Network remained operational using alternate path
 ✔ RIP successfully converged
 
-![Resilience Test](images/resilience.png)
+<img src="images/resilience.png" width="700">
 
 ---
 
