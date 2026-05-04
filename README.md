@@ -1,6 +1,6 @@
 # 🖧 Multi-Router Campus Network Design with VLANs, VLSM & RIP Routing
 
-## 📌 Overview
+## Overview
 
 This project demonstrates the design and implementation of a multi-building campus network using VLAN segmentation, VLSM subnetting, router-on-a-stick (inter-VLAN routing), and RIP v2 dynamic routing.
 
@@ -14,7 +14,7 @@ Each building is connected using a triangular router topology with redundant pat
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Design a segmented network using VLANs
 * Apply VLSM for efficient IP allocation
@@ -186,7 +186,7 @@ shutdown
 
 ---
 
-## 🧠 Key Learnings
+## Key Points of My Learnings
 
 * VLANs provide logical segmentation
 * Inter-VLAN communication requires Layer 3 routing
@@ -199,14 +199,6 @@ shutdown
 ## 📸 Project Screenshots
 
 All screenshots are stored in the `/images` folder.
-
----
-
-## 🚀 Future Improvements
-
-* Implement ACL for traffic control
-* Replace RIP with OSPF for scalability
-* Add DHCP for dynamic IP assignment
 
 ---
 
